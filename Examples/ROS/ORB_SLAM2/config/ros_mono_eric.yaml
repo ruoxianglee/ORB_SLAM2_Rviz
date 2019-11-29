@@ -1,0 +1,8 @@
+%YAML:1.0
+vocPath: "/home/eric/slam/ORB_SLAM2/Vocabulary/ORBvoc.txt"
+
+# tum dataset
+# settingPath: "/home/eric/slam/ORB_SLAM2/Examples/Monocular/TUM1.yaml"
+
+# kitti dataset
+settingPath: "/home/eric/slam/ORB_SLAM2/Examples/Monocular/KITTI03.yaml"

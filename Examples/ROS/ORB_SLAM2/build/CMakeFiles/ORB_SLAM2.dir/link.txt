@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -Wall  -O3 -march=native -std=c++11 -O3 -DNDEBUG  -shared -Wl,-soname,libORB_SLAM2.so -o ../lib/libORB_SLAM2.so CMakeFiles/ORB_SLAM2.dir/src/MapPublisher.cc.o  -L/opt/ros/kinetic/lib 

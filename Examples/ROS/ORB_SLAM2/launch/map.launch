@@ -1,0 +1,10 @@
+<launch>  
+  
+  <node pkg="ORB_SLAM2" type="Stereo_eric" name="Stereo_eric" output="screen">  
+<!--  <remap from="/camera/image_raw" to="/camera_node/image_raw">  
+   </remap> -->
+</node>  
+
+  	<node pkg="rviz" type="rviz" name="rviz" args="-d $(find ORB_SLAM2)/config/rviz.rviz" output="log">
+   </node>
+</launch>  
